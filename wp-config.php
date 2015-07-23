@@ -22,10 +22,10 @@ define('DB_NAME', 'elearning');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '123123123');
+define('DB_PASSWORD', '123456qwertY');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '192.168.1.18');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
