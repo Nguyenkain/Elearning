@@ -1,0 +1,114 @@
+[21-Jul-2015 03:32:27 UTC] PHP Notice:  Undefined index: skin_update_failed_error in D:\wamp\www\elearning\wp-content\themes\wplms\includes\plugin-activation.php on line 2117
+[21-Jul-2015 03:32:27 UTC] PHP Stack trace:
+[21-Jul-2015 03:32:27 UTC] PHP   1. {main}() D:\wamp\www\elearning\wp-admin\themes.php:0
+[21-Jul-2015 03:32:27 UTC] PHP   2. require_once() D:\wamp\www\elearning\wp-admin\themes.php:10
+[21-Jul-2015 03:32:27 UTC] PHP   3. do_action() D:\wamp\www\elearning\wp-admin\admin.php:226
+[21-Jul-2015 03:32:27 UTC] PHP   4. call_user_func_array:{D:\wamp\www\elearning\wp-includes\plugin.php:496}() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:32:27 UTC] PHP   5. TGM_Plugin_Activation->install_plugins_page() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:32:27 UTC] PHP   6. TGMPA_List_Table->prepare_items() D:\wamp\www\elearning\wp-content\themes\wplms\includes\plugin-activation.php:394
+[21-Jul-2015 03:32:27 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() D:\wamp\www\elearning\wp-content\themes\wplms\includes\plugin-activation.php:1671
+[21-Jul-2015 03:32:27 UTC] PHP   8. TGM_Bulk_Installer->bulk_install() D:\wamp\www\elearning\wp-content\themes\wplms\includes\plugin-activation.php:1589
+[21-Jul-2015 03:32:27 UTC] PHP   9. TGM_Bulk_Installer->run() D:\wamp\www\elearning\wp-content\themes\wplms\includes\plugin-activation.php:1783
+[21-Jul-2015 03:32:27 UTC] PHP  10. TGM_Bulk_Installer_Skin->after() D:\wamp\www\elearning\wp-content\themes\wplms\includes\plugin-activation.php:1919
+[21-Jul-2015 03:33:16 UTC] PHP Strict standards:  call_user_func_array() expects parameter 1 to be a valid callback, non-static method WPLMS_Customizer_Plugin_Class::activate() should not be called statically in D:\wamp\www\elearning\wp-includes\plugin.php on line 496
+[21-Jul-2015 03:33:16 UTC] PHP Stack trace:
+[21-Jul-2015 03:33:16 UTC] PHP   1. {main}() D:\wamp\www\elearning\wp-admin\themes.php:0
+[21-Jul-2015 03:33:16 UTC] PHP   2. require_once() D:\wamp\www\elearning\wp-admin\themes.php:10
+[21-Jul-2015 03:33:16 UTC] PHP   3. do_action() D:\wamp\www\elearning\wp-admin\admin.php:226
+[21-Jul-2015 03:33:17 UTC] PHP   4. call_user_func_array:{D:\wamp\www\elearning\wp-includes\plugin.php:496}() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:33:17 UTC] PHP   5. TGM_Plugin_Activation->install_plugins_page() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:33:17 UTC] PHP   6. TGMPA_List_Table->prepare_items() D:\wamp\www\elearning\wp-content\themes\wplms\includes\plugin-activation.php:394
+[21-Jul-2015 03:33:17 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() D:\wamp\www\elearning\wp-content\themes\wplms\includes\plugin-activation.php:1671
+[21-Jul-2015 03:33:17 UTC] PHP   8. TGM_Bulk_Installer->bulk_install() D:\wamp\www\elearning\wp-content\themes\wplms\includes\plugin-activation.php:1589
+[21-Jul-2015 03:33:17 UTC] PHP   9. TGM_Bulk_Installer->run() D:\wamp\www\elearning\wp-content\themes\wplms\includes\plugin-activation.php:1783
+[21-Jul-2015 03:33:17 UTC] PHP  10. activate_plugin() D:\wamp\www\elearning\wp-content\themes\wplms\includes\plugin-activation.php:1899
+[21-Jul-2015 03:33:17 UTC] PHP  11. do_action() D:\wamp\www\elearning\wp-admin\includes\plugin.php:575
+[21-Jul-2015 03:33:17 UTC] PHP  12. call_user_func_array:{D:\wamp\www\elearning\wp-includes\plugin.php:496}() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:33:19 UTC] PHP Notice:  Undefined index: skin_update_failed_error in D:\wamp\www\elearning\wp-content\themes\wplms\includes\plugin-activation.php on line 2117
+[21-Jul-2015 03:33:19 UTC] PHP Stack trace:
+[21-Jul-2015 03:33:19 UTC] PHP   1. {main}() D:\wamp\www\elearning\wp-admin\themes.php:0
+[21-Jul-2015 03:33:19 UTC] PHP   2. require_once() D:\wamp\www\elearning\wp-admin\themes.php:10
+[21-Jul-2015 03:33:19 UTC] PHP   3. do_action() D:\wamp\www\elearning\wp-admin\admin.php:226
+[21-Jul-2015 03:33:19 UTC] PHP   4. call_user_func_array:{D:\wamp\www\elearning\wp-includes\plugin.php:496}() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:33:19 UTC] PHP   5. TGM_Plugin_Activation->install_plugins_page() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:33:19 UTC] PHP   6. TGMPA_List_Table->prepare_items() D:\wamp\www\elearning\wp-content\themes\wplms\includes\plugin-activation.php:394
+[21-Jul-2015 03:33:19 UTC] PHP   7. TGMPA_List_Table->process_bulk_actions() D:\wamp\www\elearning\wp-content\themes\wplms\includes\plugin-activation.php:1671
+[21-Jul-2015 03:33:19 UTC] PHP   8. TGM_Bulk_Installer->bulk_install() D:\wamp\www\elearning\wp-content\themes\wplms\includes\plugin-activation.php:1589
+[21-Jul-2015 03:33:19 UTC] PHP   9. TGM_Bulk_Installer->run() D:\wamp\www\elearning\wp-content\themes\wplms\includes\plugin-activation.php:1783
+[21-Jul-2015 03:33:19 UTC] PHP  10. TGM_Bulk_Installer_Skin->after() D:\wamp\www\elearning\wp-content\themes\wplms\includes\plugin-activation.php:1919
+[21-Jul-2015 03:34:30 UTC] PHP Notice:  bbp_setup_current_user was called <strong>incorrectly</strong>. The current user is being initialized without using $wp->init(). Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 2.3.) in D:\wamp\www\elearning\wp-includes\functions.php on line 3560
+[21-Jul-2015 03:34:30 UTC] PHP Stack trace:
+[21-Jul-2015 03:34:30 UTC] PHP   1. {main}() D:\wamp\www\elearning\wp-admin\themes.php:0
+[21-Jul-2015 03:34:30 UTC] PHP   2. require_once() D:\wamp\www\elearning\wp-admin\themes.php:10
+[21-Jul-2015 03:34:30 UTC] PHP   3. require_once() D:\wamp\www\elearning\wp-admin\admin.php:31
+[21-Jul-2015 03:34:30 UTC] PHP   4. require_once() D:\wamp\www\elearning\wp-load.php:37
+[21-Jul-2015 03:34:30 UTC] PHP   5. require_once() D:\wamp\www\elearning\wp-config.php:84
+[21-Jul-2015 03:34:30 UTC] PHP   6. do_action() D:\wamp\www\elearning\wp-settings.php:237
+[21-Jul-2015 03:34:30 UTC] PHP   7. call_user_func_array:{D:\wamp\www\elearning\wp-includes\plugin.php:496}() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:34:30 UTC] PHP   8. SitePress->init() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:34:30 UTC] PHP   9. wp_get_current_user() D:\wamp\www\elearning\wp-content\plugins\sitepress-multilingual-cms\sitepress.class.php:419
+[21-Jul-2015 03:34:30 UTC] PHP  10. get_currentuserinfo() D:\wamp\www\elearning\wp-includes\pluggable.php:58
+[21-Jul-2015 03:34:30 UTC] PHP  11. wp_set_current_user() D:\wamp\www\elearning\wp-includes\pluggable.php:123
+[21-Jul-2015 03:34:30 UTC] PHP  12. do_action() D:\wamp\www\elearning\wp-includes\pluggable.php:41
+[21-Jul-2015 03:34:30 UTC] PHP  13. call_user_func_array:{D:\wamp\www\elearning\wp-includes\plugin.php:496}() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:34:30 UTC] PHP  14. bbp_setup_current_user() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:34:30 UTC] PHP  15. _doing_it_wrong() D:\wamp\www\elearning\wp-content\plugins\bbpress\includes\core\sub-actions.php:147
+[21-Jul-2015 03:34:30 UTC] PHP  16. trigger_error() D:\wamp\www\elearning\wp-includes\functions.php:3560
+[21-Jul-2015 03:34:30 UTC] PHP Notice:  bp_setup_current_user was called <strong>incorrectly</strong>. The current user is being initialized without using $wp->init(). Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 1.7.) in D:\wamp\www\elearning\wp-includes\functions.php on line 3560
+[21-Jul-2015 03:34:30 UTC] PHP Stack trace:
+[21-Jul-2015 03:34:30 UTC] PHP   1. {main}() D:\wamp\www\elearning\wp-admin\themes.php:0
+[21-Jul-2015 03:34:30 UTC] PHP   2. require_once() D:\wamp\www\elearning\wp-admin\themes.php:10
+[21-Jul-2015 03:34:30 UTC] PHP   3. require_once() D:\wamp\www\elearning\wp-admin\admin.php:31
+[21-Jul-2015 03:34:30 UTC] PHP   4. require_once() D:\wamp\www\elearning\wp-load.php:37
+[21-Jul-2015 03:34:30 UTC] PHP   5. require_once() D:\wamp\www\elearning\wp-config.php:84
+[21-Jul-2015 03:34:30 UTC] PHP   6. do_action() D:\wamp\www\elearning\wp-settings.php:237
+[21-Jul-2015 03:34:30 UTC] PHP   7. call_user_func_array:{D:\wamp\www\elearning\wp-includes\plugin.php:496}() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:34:30 UTC] PHP   8. SitePress->init() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:34:30 UTC] PHP   9. wp_get_current_user() D:\wamp\www\elearning\wp-content\plugins\sitepress-multilingual-cms\sitepress.class.php:419
+[21-Jul-2015 03:34:30 UTC] PHP  10. get_currentuserinfo() D:\wamp\www\elearning\wp-includes\pluggable.php:58
+[21-Jul-2015 03:34:30 UTC] PHP  11. wp_set_current_user() D:\wamp\www\elearning\wp-includes\pluggable.php:123
+[21-Jul-2015 03:34:30 UTC] PHP  12. do_action() D:\wamp\www\elearning\wp-includes\pluggable.php:41
+[21-Jul-2015 03:34:30 UTC] PHP  13. call_user_func_array:{D:\wamp\www\elearning\wp-includes\plugin.php:496}() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:34:30 UTC] PHP  14. bp_setup_current_user() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:34:30 UTC] PHP  15. _doing_it_wrong() D:\wamp\www\elearning\wp-content\plugins\buddypress\bp-core\bp-core-dependency.php:88
+[21-Jul-2015 03:34:30 UTC] PHP  16. trigger_error() D:\wamp\www\elearning\wp-includes\functions.php:3560
+[21-Jul-2015 03:34:38 UTC] PHP Notice:  bbp_setup_current_user was called <strong>incorrectly</strong>. The current user is being initialized without using $wp->init(). Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 2.3.) in D:\wamp\www\elearning\wp-includes\functions.php on line 3560
+[21-Jul-2015 03:34:38 UTC] PHP Stack trace:
+[21-Jul-2015 03:34:38 UTC] PHP   1. {main}() D:\wamp\www\elearning\wp-cron.php:0
+[21-Jul-2015 03:34:39 UTC] PHP   2. require_once() D:\wamp\www\elearning\wp-cron.php:26
+[21-Jul-2015 03:34:39 UTC] PHP   3. require_once() D:\wamp\www\elearning\wp-load.php:37
+[21-Jul-2015 03:34:39 UTC] PHP   4. require_once() D:\wamp\www\elearning\wp-config.php:84
+[21-Jul-2015 03:34:39 UTC] PHP   5. do_action() D:\wamp\www\elearning\wp-settings.php:237
+[21-Jul-2015 03:34:39 UTC] PHP   6. call_user_func_array:{D:\wamp\www\elearning\wp-includes\plugin.php:496}() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:34:39 UTC] PHP   7. SitePress->init() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:34:39 UTC] PHP   8. WPML_Troubleshooting_Terms_Menu::display_terms_with_suffix_admin_notice() D:\wamp\www\elearning\wp-content\plugins\sitepress-multilingual-cms\sitepress.class.php:643
+[21-Jul-2015 03:34:39 UTC] PHP   9. ICL_AdminNotifier::displayMessages() D:\wamp\www\elearning\wp-content\plugins\sitepress-multilingual-cms\menu\wpml-troubleshooting-terms-menu.class.php:28
+[21-Jul-2015 03:34:39 UTC] PHP  10. current_user_can() D:\wamp\www\elearning\wp-content\plugins\sitepress-multilingual-cms\inc\icl-admin-notifier.php:141
+[21-Jul-2015 03:34:39 UTC] PHP  11. wp_get_current_user() D:\wamp\www\elearning\wp-includes\capabilities.php:1385
+[21-Jul-2015 03:34:39 UTC] PHP  12. get_currentuserinfo() D:\wamp\www\elearning\wp-includes\pluggable.php:58
+[21-Jul-2015 03:34:39 UTC] PHP  13. wp_set_current_user() D:\wamp\www\elearning\wp-includes\pluggable.php:119
+[21-Jul-2015 03:34:39 UTC] PHP  14. do_action() D:\wamp\www\elearning\wp-includes\pluggable.php:41
+[21-Jul-2015 03:34:39 UTC] PHP  15. call_user_func_array:{D:\wamp\www\elearning\wp-includes\plugin.php:496}() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:34:39 UTC] PHP  16. bbp_setup_current_user() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:34:39 UTC] PHP  17. _doing_it_wrong() D:\wamp\www\elearning\wp-content\plugins\bbpress\includes\core\sub-actions.php:147
+[21-Jul-2015 03:34:39 UTC] PHP  18. trigger_error() D:\wamp\www\elearning\wp-includes\functions.php:3560
+[21-Jul-2015 03:34:39 UTC] PHP Notice:  bp_setup_current_user was called <strong>incorrectly</strong>. The current user is being initialized without using $wp->init(). Please see <a href="https://codex.wordpress.org/Debugging_in_WordPress">Debugging in WordPress</a> for more information. (This message was added in version 1.7.) in D:\wamp\www\elearning\wp-includes\functions.php on line 3560
+[21-Jul-2015 03:34:39 UTC] PHP Stack trace:
+[21-Jul-2015 03:34:39 UTC] PHP   1. {main}() D:\wamp\www\elearning\wp-cron.php:0
+[21-Jul-2015 03:34:39 UTC] PHP   2. require_once() D:\wamp\www\elearning\wp-cron.php:26
+[21-Jul-2015 03:34:39 UTC] PHP   3. require_once() D:\wamp\www\elearning\wp-load.php:37
+[21-Jul-2015 03:34:39 UTC] PHP   4. require_once() D:\wamp\www\elearning\wp-config.php:84
+[21-Jul-2015 03:34:39 UTC] PHP   5. do_action() D:\wamp\www\elearning\wp-settings.php:237
+[21-Jul-2015 03:34:39 UTC] PHP   6. call_user_func_array:{D:\wamp\www\elearning\wp-includes\plugin.php:496}() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:34:39 UTC] PHP   7. SitePress->init() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:34:39 UTC] PHP   8. WPML_Troubleshooting_Terms_Menu::display_terms_with_suffix_admin_notice() D:\wamp\www\elearning\wp-content\plugins\sitepress-multilingual-cms\sitepress.class.php:643
+[21-Jul-2015 03:34:39 UTC] PHP   9. ICL_AdminNotifier::displayMessages() D:\wamp\www\elearning\wp-content\plugins\sitepress-multilingual-cms\menu\wpml-troubleshooting-terms-menu.class.php:28
+[21-Jul-2015 03:34:39 UTC] PHP  10. current_user_can() D:\wamp\www\elearning\wp-content\plugins\sitepress-multilingual-cms\inc\icl-admin-notifier.php:141
+[21-Jul-2015 03:34:39 UTC] PHP  11. wp_get_current_user() D:\wamp\www\elearning\wp-includes\capabilities.php:1385
+[21-Jul-2015 03:34:39 UTC] PHP  12. get_currentuserinfo() D:\wamp\www\elearning\wp-includes\pluggable.php:58
+[21-Jul-2015 03:34:39 UTC] PHP  13. wp_set_current_user() D:\wamp\www\elearning\wp-includes\pluggable.php:119
+[21-Jul-2015 03:34:39 UTC] PHP  14. do_action() D:\wamp\www\elearning\wp-includes\pluggable.php:41
+[21-Jul-2015 03:34:39 UTC] PHP  15. call_user_func_array:{D:\wamp\www\elearning\wp-includes\plugin.php:496}() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:34:39 UTC] PHP  16. bp_setup_current_user() D:\wamp\www\elearning\wp-includes\plugin.php:496
+[21-Jul-2015 03:34:39 UTC] PHP  17. _doing_it_wrong() D:\wamp\www\elearning\wp-content\plugins\buddypress\bp-core\bp-core-dependency.php:88
+[21-Jul-2015 03:34:39 UTC] PHP  18. trigger_error() D:\wamp\www\elearning\wp-includes\functions.php:3560
