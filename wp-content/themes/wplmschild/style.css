@@ -319,6 +319,10 @@ bottom: -1px;
 #vibe_bp_login label{color:#FFF;text-transform:uppercase;}
 .primarycolored.stripe{background:#2299dc;padding:60px 0;}
 
+.vc_responsive .home_box_wrap{
+    padding:  0 5%;
+}
+
 .vc_responsive .home_box_wrap.wpb_row .vc_col-sm-2 {
     float: left;
     width: 18.8%;
@@ -327,6 +331,91 @@ bottom: -1px;
     min-height: 0;
 }
 
+.vc_responsive .home_box_wrap.wpb_row .vc_col-sm-2 img{
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+}
+
 .home_box_wrap .home_box_last {
     margin: 0 !important;
+}
+
+.box_scroll_right_1 {
+    position: fixed;
+    top: 200px;
+    right: -136px;
+    z-index: 10000;
+    transition: right 0.3s ease-in-out 0s;
+}
+
+.box_scroll_right_2 {
+    position: fixed;
+    top: 330px;
+    right: -123px;
+    z-index: 10000;
+    transition: right 0.3s ease-in-out 0s;
+}
+
+.controls_dangky{ position: fixed; top: 143px; left: 0; z-index: 9999; width : 61px; height : 392px; background : url(images/bg_origami.png) no-repeat;}
+.controls_dangky > div {position : absolute;}
+.controls_dangky .item-0 {top: 15px; left: 0;}
+.controls_dangky .item-1 {top: 80px; left: 0;}
+.controls_dangky .item-2 {top: 154px; left: 0px;}
+.controls_dangky .item-3 {top: 222px; left: 0px;}
+.controls_dangky .item-4 {top: 287px; left: 0px;}
+.controls_dangky a span{ position: relative; display: block; color: #FFF; font-size: 13px; text-align: center; padding: 6px 0 0 0; font-weight: bold; white-space: normal; line-height: 16px;}
+.controls_dangky a:hover span {color : #e30613;}
+
+.footerwidget{
+    padding-left: 10%;
+}
+
+.starters .title{color: #ef5a78;}
+.starters:hover  , .starters:hover .title, .starters:hover p, .starters:hover span{display: block; background-color: #d12048; text-decoration: none; color: #ffffff!Important;}
+.movers .title {color: #45a848;}
+.movers:hover  , .movers:hover .title, .movers:hover p, .movers:hover span{display: block; background-color: #45a848; text-decoration: none; color: #ffffff!Important;}
+.runners .title {color: #0072bc;}
+.runners:hover , .runners:hover .title, .runners:hover p, .runners:hover span{display: block; background-color: #1868b3; text-decoration: none; color: #ffffff!Important;}
+.moon-walkers .title {color: #f7941d;}
+.moon-walkers:hover , .moon-walkers:hover .title, .moon-walkers:hover p, .moon-walkers:hover span{display: block; background-color: #fdca08; text-decoration: none; color: #252525!Important;}
+.flyers .title {color: #a864a8;}
+.flyers:hover , .flyers:hover .title, .flyers:hover p, .flyers:hover span{display: block; background-color: #c67cb5; text-decoration: none; color: #ffffff!Important;}
+
+.do-animate-bounce .wpb_wrapper{
+    text-align: center;
+}
+
+header{
+    background: #313B3D !important;
+}
+
+nav .menu li:hover > a {
+    color: #2980b9;;
+}
+
+@media (max-width: 991px){
+    .vc_responsive .home_box_wrap.wpb_row .vc_col-sm-2 {
+         width: 33.3%;
+         padding: 0 15px;
+         margin-right: 0;
+    }
+    .vc_responsive .home_box_wrap.wpb_row .vc_col-sm-2:nth-child(4) {
+        clear:both;
+    }
+}
+
+@media (max-width: 768px){
+    .box_scroll_right_1 , .box_scroll_right_2 ,.controls_dangky{
+        display: none;
+    }
+    .vc_responsive .home_box_wrap.wpb_row .vc_col-sm-2 {
+        width: 100%;
+        padding: 0;
+        margin-right: 0;
+    }
+    .vc_responsive .home_box_wrap.wpb_row .vc_col-sm-2 img {
+        width: 200px;
+        height: 200px;
+    }
 }

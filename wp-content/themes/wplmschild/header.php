@@ -130,3 +130,17 @@ wp_head();
                 </div>
             </div>
         </header>
+        <div class="box_scroll_right_1">
+            <a href="#"><img src="<?php echo VIBE_CHILD_URL?>/images/scroll_lichkhaigiang.png" alt="cau lac bo tieng anh, effortless english, dao tao tieng anh, trung tam tieng anh, hoc tieng anh ha noi,tieng anh giao tiep, phuong phap hoc tieng anh scroll_lichkhaigiang.png"></a>
+        </div>
+        <div class="box_scroll_right_2">
+            <a href="#"><img src="<?php echo VIBE_CHILD_URL?>/images/scroll_hoctienganhquaphim.png" alt="cau lac bo tieng anh, effortless english, dao tao tieng anh, trung tam tieng anh, hoc tieng anh ha noi,tieng anh giao tiep, phuong phap hoc tieng anh scroll_hoctienganhquaphim.png"></a>
+        </div>
+        <div class="controls_dangky">
+            <div class="item-0"><a href="/demo"><span class="label">Học thử online</span></a></div>
+            <div class="item-1"><a href="/bai-kiem-tra-trinh-do"><span class="label">Test trình độ</span></a></div>
+            <div class="item-2"><a href="/uu-dai-khung-a47"><span class="label">Ưu đãi khủng</span></a></div>
+            <div class="item-3"><a href="/tu-tin-giao-tiep-tieng-anh-troi-chay-nhu-nguoi-ban-ngu-a12i521.html"><span class="label">Đăng ký học thử</span></a></div>
+            <div class="item-4"><a href="/dang-ky-tham-gia-cau-lac-bo-tieng-anh-langmaster-a32"><span class="label">Đăng ký Club</span></a></div>
+        </div>
+

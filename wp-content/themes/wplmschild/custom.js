@@ -22,4 +22,21 @@ jQuery(document).ready(function($){
     }).mouseleave(function(event) {
         $(this).removeClass("animated bounce");
     });
+
+
+    $('.box_scroll_right_1').hover(
+        function(){
+            $(this).css({'right' : '-30px'});
+        }, function(){
+            $(this).css({'right' : '-136px'});
+        }
+    );
+
+    $('.box_scroll_right_2').hover(
+        function(){
+            $(this).css({'right' : '-30px'});
+        }, function(){
+            $(this).css({'right' : '-123px'});
+        }
+    );
 });
