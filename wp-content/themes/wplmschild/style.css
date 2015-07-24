@@ -394,6 +394,17 @@ nav .menu li:hover > a {
     color: #2980b9;;
 }
 
+.top-hotline{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.top-hotline .hotline-content{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
 @media (max-width: 991px){
     .vc_responsive .home_box_wrap.wpb_row .vc_col-sm-2 {
          width: 33.3%;
