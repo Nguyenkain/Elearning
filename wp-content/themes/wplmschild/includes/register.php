@@ -6,9 +6,10 @@ Registers Scripts/Styles in WPLMS
 
 add_action('wp_enqueue_scripts', 'vibe_wplms_child_js');
 function vibe_wplms_child_js(){
-	wp_enqueue_script( 'child-custom-js', get_stylesheet_directory_uri().'/custom.js',array('jquery'));	
-}
+	wp_enqueue_script( 'child-custom-js', get_stylesheet_directory_uri().'/custom.js',array('jquery'));
 
+	wp_enqueue_style( 'animation-2-css', VIBE_CHILD_URL . '/css/animate.css' );
+}
 
 add_filter('vibe_builder_thumb_styles','custom_vibe_builder_thumb_styles');  
 add_filter('vibe_featured_thumbnail_style','custom_vibe_featured_thumbnail_style',1,3);

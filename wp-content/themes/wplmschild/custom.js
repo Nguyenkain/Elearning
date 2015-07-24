@@ -14,4 +14,12 @@ jQuery(document).ready(function($){
       }
     }
   });
+
+    $(".do-animate-bounce").mouseenter(function(event) {
+        $(this).addClass("animated bounce");
+    }).on("webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd", function(event) {
+        $(this).removeClass("animated bounce");
+    }).mouseleave(function(event) {
+        $(this).removeClass("animated bounce");
+    });
 });
