@@ -10,7 +10,7 @@ Version: 1.1
 
 @import url("../wplms/style.css");
 
-body,.pusher{background:#FFF !important;}
+body,.pusher{background:#FFF !important;padding-top: 40px}
 .content,.page .content, .single .content, .padder.content,
 #groups-dir-list, #course-dir-list{padding:30px 0;}
 header{
@@ -403,6 +403,10 @@ nav .menu li:hover > a {
     font-size: 20px;
     font-weight: bold;
     text-align: right;
+}
+
+.row.instructor-list{
+    margin-bottom: 30px;
 }
 
 @media (max-width: 991px){
