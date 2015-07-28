@@ -39,4 +39,10 @@ jQuery(document).ready(function($){
             $(this).css({'right' : '-123px'});
         }
     );
+    $('.tree-toggle').click(function () {
+        $(this).parent().children('ul.tree').toggle(200);
+    });
+    $(function(){
+        $('.tree-toggle').parent().children('ul.tree').toggle(200);
+    })
 });
